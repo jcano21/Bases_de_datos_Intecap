@@ -110,6 +110,12 @@ public Interfaz (String nombre ){
               metodos m = new metodos();
               m.Insertar(Integer.parseInt(txtc.getText()),txtmostrar.getText(),txtd.getText(), Integer.parseInt(txtt.getText()));
               System.out.println("Agregado Correctamente");
+              
+              txtc.setText(null);
+              txtmostrar.setText(null);
+              txtd.setText(null);
+              txtt.setText(null);
+              
           }
       });
     
