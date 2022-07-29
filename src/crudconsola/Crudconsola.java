@@ -16,9 +16,12 @@ public class Crudconsola {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Menu men = new Menu();
+       
+        //Menu men = new Menu();
         
-        men.Menu();
+       // men.Menu();
+        
+        Interfaz i = new Interfaz("Crud");
     }
     
 }

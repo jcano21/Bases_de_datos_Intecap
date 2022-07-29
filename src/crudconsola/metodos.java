@@ -69,6 +69,8 @@ public class metodos {
                 System.out.println(rs.getString(3));
                 System.out.println(rs.getInt(4));
                 System.out.println("---------------");
+                
+              
             }
             
         } catch (Exception e) {
